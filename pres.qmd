@@ -7,8 +7,8 @@ title-slide-attributes:
     data-background-opacity: ".5"
 format:
   revealjs:
-    theme: solarized
-    incremental: true  
+    theme: [solarized, custom.scss]
+    incremental: true
 ---
 
 ## Contexto
@@ -36,7 +36,7 @@ Más de 15 millones de personas son expuestas a los efectos del humo de las quem
 ::: {.notes}
 En el 2021, InfoAmazonia se puso a investigar el tema en el proyecto "Engolindo Fumaça" (Tragando Humo)
 
-La combinación de la pandemia de Covid-19 y uno de los ciclos más graves de incendios y deforestación en la Amazonia brasileña hizo que los habitantes de las regiones afectadas también estuvieran más expuestos al riesgo de que el Covid-19 se agravara. 
+La combinación de la pandemia de Covid-19 y uno de los ciclos más graves de incendios y deforestación en la Amazonia brasileña hizo que los habitantes de las regiones afectadas también estuvieran más expuestos al riesgo de que el Covid-19 se agravara.
 :::
 
 ## ¿Cómo evaluar el efecto de los incendios en la pandemia?
@@ -50,9 +50,13 @@ Equipo multidisciplinar
 :::
 
 ::: {.notes}
-Se hizo muy claro desde el principio que hacía falta un equipo multidisciplinar.  
+Se hizo muy claro desde el principio que hacía falta un equipo multidisciplinar.
 Contamos con la colaboración de investigadores de universidades e instituciones científicas, y ese apoyo fue fundamental para llevar a cabo el proyecto de forma correcta.
 :::
+
+## {background-color=#222c38}
+
+![](img/equipo.webp){fig-align="center"}
 
 ## Y los datos, ¿dónde están?
 
@@ -61,21 +65,22 @@ Contamos con la colaboración de investigadores de universidades e instituciones
 - Material particulado fino (PM 2.5)
 
 ::: {.notes}
-- Tuvimos un gran reto inicial que fue la falta de datos por parte del gobierno  
+- Tuvimos un gran reto inicial que fue la falta de datos por parte del gobierno
 - Buscamos entonces informaciones en imágenes de satélites, y en esa etapa fue muy importante el trabajo del geógrafo que actuó en el proyecto, porque tenía un mayor entendimiento de esos datos.
 - Elegimos analisar la presencia de material particulado fino, o PM 2.5, que se refiere a 2.5 micrómetros, que son partículas muy pequeñas que pueden recorrer quilómetros con el viento y pueden ser inhaladas y absorvidas por los pulmones hasta la vía sanguínea
 - Como referencia, los pelos tienen entre 50 a 70 micrómetros de diametro, o sea, son 20 veces más grandes que esas partículas.
 :::
 
-## Validación con datos de sensores terrestres^[[LabGAMA, UFAC](https://www.ufac.br/labgama)]
+## {background-color=#222c38}
 
-![](img/labgama.webp)
+![](img/valid.png)
 
 ::: {.notes}
 - Para asegurarnos que las informaciones obtenidas eran fiables, validamos una muestra de los datos, comparándolos con informaciones recogidas por medio de sensores terrestres en el estado del Acre
+- Los sensores son parte del proyecto de monitoramiento de LabGAMA, de la Universidad Federal de Acre
 :::
 
-##
+## {background-color=#222c38}
 
 ![](img/pm25.png)
 
@@ -112,6 +117,12 @@ Confiabilidad y familiaridad con los datos
 - Consultas con investigadores que estudian los incendios en la Amazonia y el SRAG
 - Relatos y entrevistas con la población
 
+::: {.notes}
+- Gran parte del trabajo fue transformar los datos en un formato manejable, para cruzar las informaciones y ajustar un modelo estadístico.
+- También nos acompañaron varios especialistas que nos ayudaron a entender los detalles de los datos que teníamos
+- Hacia el final del proyecto, un equipo de periodistas condujo entrevistas con la población en las ciudades en las que el análisis había indicado como las más vulnerables
+:::
+
 ## Variables consideradas
 
 - Precipitación
@@ -119,20 +130,45 @@ Confiabilidad y familiaridad con los datos
 - Número de residentes
 - Casos de Covid-19 registrados
 
+::: {.notes}
+- El modelo utilizado fue un modelo mixto en el que se consideraron otras variables como precipitación y focos de incendio.
+:::
 
 ## Resultados
 
 - No sólo la concentración de material particulado, sino también la persistencia de la contaminación tienen efecto negativo en la salud
 - El aumento de un día al mes con una concentración por en cima del límite implica en un aumento del 2% en el total de ingresos hospitalarios por Covid-19
 
+##
+
+![](img/riobranco.webp)
+
+::: {.notes}
+Por ejemplo, Rio Branco fue el municipio más contaminado de Acre en septiembre 2020. Consideramos que la contaminación está relacionada con un aumento del 71% en ingresos hospitalarios debido a la Covid
+La capital del estado de Acre tuvo 27 días de 30 con niveles de concentración de contaminación superiores a los recomendados por la OMS
+:::
+
 ## Municípios vulnerables
 
-Además del modelo estadístico, también agrupamos municipios en grupos por similitud para entender cuales eran las ciudades más vulnerables
+Además del modelo estadístico, también agrupamos municipios en grupos por similitud para entender el perfil de las ciudades más vulnerables
 
 ## Reportajes
 
+:::: {.columns}
+::: {.column width=35%}
 Finalmente, el proyecto rindió una serie especial de 5 reportajes, además de artículos científicos y reconocimiento internacional que reafirmaron la importancia de este tema
+:::
+::: {.column width=65%}
+![](img/reportagens.png)
+:::
+::::
 
-## Gracias
+## Agradecimiento {background-color=#222c38 .smaller}
 
-Fotos por Marizilda Cruppe/Amazônia Real
+El proyecto se hizo posible gracias al apoyo de la John S. Knight Journalism Fellowship y el programa Big Local News de la Universidad de Stanford.
+
+Juliana Mori coordenó el proyecto por parte de InfoAmazonia.
+
+
+- [https://infoamazonia.org/project/engolindo-fumaca/](https://infoamazonia.org/project/engolindo-fumaca/)
+- [https://github.com/InfoAmazonia/engolindo-fumaca](https://github.com/InfoAmazonia/engolindo-fumaca)
