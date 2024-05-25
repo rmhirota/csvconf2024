@@ -1,0 +1,138 @@
+---
+title: "Incendios en la Amazonia"
+subtitle: "Investigando los efectos de la contaminación en la salud"
+title-slide-attributes:
+    data-background-image: "img/humo.jpeg"
+    # data-background-size: contain
+    data-background-opacity: ".5"
+format:
+  revealjs:
+    theme: solarized
+    incremental: true  
+---
+
+## Contexto
+
+- El fuego es parte del ciclo de deforestación de la Amazonia
+- Los meses de **agosto a octubre** son los que más registran incendios
+- Menos del 1% de los incendios son fenómenos naturales
+- Entre el 2012 y 2022, se han quemado 62 millones de hectares^[Laboratório de Aplicações de Satélites Ambientais, UFRJ], una superficie mayor que la de Francia e Irlanda
+
+## ¿Cómo afectó esto a la pandemia de Covid-19? {.title-slide background-image="img/covid.webp" background-opacity=.3}
+
+::: {.fragment}
+15 millones de personas
+:::
+
+::: {.notes}
+Pues de hecho es una enfermedad respiratoria
+Más de 15 millones de personas son expuestas a los efectos del humo de las quemadas en la Amazonia
+:::
+
+## "Engolindo Fumaça (Tragando Humo)", InfoAmazonia
+
+![](img/tragandohumo.png){fig-align="center"}
+
+::: {.notes}
+En el 2021, InfoAmazonia se puso a investigar el tema en el proyecto "Engolindo Fumaça" (Tragando Humo)
+
+La combinación de la pandemia de Covid-19 y uno de los ciclos más graves de incendios y deforestación en la Amazonia brasileña hizo que los habitantes de las regiones afectadas también estuvieran más expuestos al riesgo de que el Covid-19 se agravara. 
+:::
+
+## ¿Cómo evaluar el efecto de los incendios en la pandemia?
+
+1. ¿Qué significa el agravamiento de la enfermedad?
+1. ¿Qué datos usar para medir la contaminación?
+1. ¿Cómo cuantificar el efecto de los incendios?
+
+::: {.fragment}
+Equipo multidisciplinar
+:::
+
+::: {.notes}
+Se hizo muy claro desde el principio que hacía falta un equipo multidisciplinar.  
+Contamos con la colaboración de investigadores de universidades e instituciones científicas, y ese apoyo fue fundamental para llevar a cabo el proyecto de forma correcta.
+:::
+
+## Y los datos, ¿dónde están?
+
+- Interrupción de la publicación de datos de contaminación por parte del gobierno brasileño en el 2020
+- Datos de satélite (CAMS-NRT, Centro Europeo de Previsiones Meteorológicas)
+- Material particulado fino (PM 2.5)
+
+::: {.notes}
+- Tuvimos un gran reto inicial que fue la falta de datos por parte del gobierno  
+- Buscamos entonces informaciones en imágenes de satélites, y en esa etapa fue muy importante el trabajo del geógrafo que actuó en el proyecto, porque tenía un mayor entendimiento de esos datos.
+- Elegimos analisar la presencia de material particulado fino, o PM 2.5, que se refiere a 2.5 micrómetros, que son partículas muy pequeñas que pueden recorrer quilómetros con el viento y pueden ser inhaladas y absorvidas por los pulmones hasta la vía sanguínea
+- Como referencia, los pelos tienen entre 50 a 70 micrómetros de diametro, o sea, son 20 veces más grandes que esas partículas.
+:::
+
+## Validación con datos de sensores terrestres^[[LabGAMA, UFAC](https://www.ufac.br/labgama)]
+
+![](img/labgama.webp)
+
+::: {.notes}
+- Para asegurarnos que las informaciones obtenidas eran fiables, validamos una muestra de los datos, comparándolos con informaciones recogidas por medio de sensores terrestres en el estado del Acre
+:::
+
+##
+
+![](img/pm25.png)
+
+::: {.notes}
+- Este fue uno de los primeros gráficos que hicimos, que mostraba la elevada concentración de contaminación de julio a octubre.
+- La OMS establece el valor de 25 microgramas por metro cúbico de PM 2.5 como el límite para la media diaria. Hoy día, desde finales del 2021, ese valor es de 15 microgramas
+- En ese gráfico, cada una de las líneas corresponde a una ciudad e indica las medias diarias de PM 2.5 a lo largo del año.
+- Vemos que de hecho en los meses secos esas medias están muy por en cima de ese límite.
+:::
+
+## El agravamiento del Covid-19
+
+- Muertes
+- Duración de hospitalización
+-  ::: {.fragment .highlight-red}
+Ingresos hospitalarios por SRAG (Síndrome respiratorio agudo grave)
+:::
+
+::: {.fragment}
+Confiabilidad y familiaridad con los datos
+:::
+
+::: {.notes}
+- Para tratar del agravamiento del Covid-19, teníamos algunas opciones.
+- Podríamos analisar los casos de covid, o las muertes, el tiempo de duración de hospitalización
+- Pero optamos por analisar los números de ingresos hospitalarios por covid-19 o por síndrome respiratorio agudo, por considerar los datos más confiables.
+- Muchas veces, faltaban informaciones como fechas de alta, y por eso consideramos que el ingreso en el hospital ya indicaba un agravamiento de la enfermedad.
+:::
+
+## Análisis
+
+- Tratamiento de datos
+- Modelo estadístico para entender el efecto de la contaminación
+- Consultas con investigadores que estudian los incendios en la Amazonia y el SRAG
+- Relatos y entrevistas con la población
+
+## Variables consideradas
+
+- Precipitación
+- Focos de incendios
+- Número de residentes
+- Casos de Covid-19 registrados
+
+
+## Resultados
+
+- No sólo la concentración de material particulado, sino también la persistencia de la contaminación tienen efecto negativo en la salud
+- El aumento de un día al mes con una concentración por en cima del límite implica en un aumento del 2% en el total de ingresos hospitalarios por Covid-19
+
+## Municípios vulnerables
+
+Además del modelo estadístico, también agrupamos municipios en grupos por similitud para entender cuales eran las ciudades más vulnerables
+
+## Reportajes
+
+Finalmente, el proyecto rindió una serie especial de 5 reportajes, además de artículos científicos y reconocimiento internacional que reafirmaron la importancia de este tema
+
+## Gracias
+
+Fotos por Marizilda Cruppe/Amazônia Real
