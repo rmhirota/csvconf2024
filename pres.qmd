@@ -163,7 +163,7 @@ Finalmente, el proyecto rindió una serie especial de 5 reportajes, además de a
 :::
 ::::
 
-## Agradecimiento {background-color=#222c38 .smaller}
+## Agradecimiento {background-color=#222c38}
 
 El proyecto se hizo posible gracias al apoyo de la John S. Knight Journalism Fellowship y el programa Big Local News de la Universidad de Stanford.
 
