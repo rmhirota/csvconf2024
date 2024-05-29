@@ -172,3 +172,7 @@ Juliana Mori coordenó el proyecto por parte de InfoAmazonia.
 
 - [https://infoamazonia.org/project/engolindo-fumaca/](https://infoamazonia.org/project/engolindo-fumaca/)
 - [https://github.com/InfoAmazonia/engolindo-fumaca](https://github.com/InfoAmazonia/engolindo-fumaca)
+
+## Gracias {background-color=#222c38}
+
+![](img/qrcode.jpeg)
